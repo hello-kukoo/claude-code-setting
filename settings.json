@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "ANTHROPIC_LOG": "error",
+    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "e7a9e61649a34313b52952db596605f0.EAB46br9txm6Jxvf"
+  },
+  "feedbackSurveyState": {
+    "lastShownTime": 1754043235143
+  },
+  "permissions": {
+    "allow": [],
+    "deny": []
+  }
+}
