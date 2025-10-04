@@ -31,7 +31,11 @@
       "Bash(git pull:*)",
       "Bash(git checkout:*)",
       "Bash(git branch:*)",
-      "mcp__serena__list_dir"
+      "mcp__serena__list_dir",
+      "mcp__arxiv-mcp__search_papers",
+      "mcp__arxiv-mcp__download_paper",
+      "mcp__arxiv-mcp__list_papers",
+      "mcp__arxiv-mcp__read_paper"
     ],
     "deny": ["Bash(rm:*)", "Bash(sudo:*)"],
     "ask": ["Bash(git merge:*)"]

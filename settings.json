@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "$ZAI_API_KEY",
+    "ANTHROPIC_AUTH_TOKEN": "df5243be035e4d9e95bd7b47b4f134ca.jjIbGqu7rZaTyqBI",
     "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
     "ANTHROPIC_MODEL": "glm-4.6",
     "ANTHROPIC_SMALL_FAST_MODEL": "glm-4.5-air",
@@ -9,7 +9,7 @@
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.6",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-4.6",
     "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "204800",
-    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
     "ANTHROPIC_LOG": "error"
   },
   "permissions": {
@@ -31,7 +31,11 @@
       "Bash(git pull:*)",
       "Bash(git checkout:*)",
       "Bash(git branch:*)",
-      "mcp__serena__list_dir"
+      "mcp__serena__list_dir",
+      "mcp__arxiv-mcp__search_papers",
+      "mcp__arxiv-mcp__download_paper",
+      "mcp__arxiv-mcp__list_papers",
+      "mcp__arxiv-mcp__read_paper"
     ],
     "deny": ["Bash(rm:*)", "Bash(sudo:*)"],
     "ask": ["Bash(git merge:*)"]
