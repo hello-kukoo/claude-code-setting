@@ -5,3 +5,5 @@ shell-snapshots/
 statsig/
 todos/
 .DS_Store
+history.jsonl
+
