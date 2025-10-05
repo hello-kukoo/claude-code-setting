@@ -7,3 +7,4 @@ todos/
 .DS_Store
 history.jsonl
 settings.json
+auth.json

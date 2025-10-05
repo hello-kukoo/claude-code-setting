@@ -40,5 +40,6 @@
     "deny": ["Bash(rm:*)", "Bash(sudo:*)"],
     "ask": ["Bash(git merge:*)"]
   },
-  "alwaysThinkingEnabled": true
+  "alwaysThinkingEnabled": true,
+  "includeCoAuthoredBy": false
 }

@@ -1,22 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "env": {
-    "ANTHROPIC_AUTH_TOKEN": "df5243be035e4d9e95bd7b47b4f134ca.jjIbGqu7rZaTyqBI",
-    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
-    "ANTHROPIC_MODEL": "glm-4.6",
-    "ANTHROPIC_SMALL_FAST_MODEL": "glm-4.5-air",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.5-air",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.6",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-4.6",
-    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "204800",
-    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
-    "ANTHROPIC_LOG": "error"
-  },
+  "alwaysThinkingEnabled": true,
+  "includeCoAuthoredBy": false,
+  "env": {},
   "permissions": {
     "allow": [
-      "Bash(git log:*)",
-      "Bash(git status)",
-      "Bash(git diff:*)",
       "Edit",
       "Glob",
       "Grep",
@@ -25,7 +13,12 @@
       "SlashCommand",
       "WebFetch",
       "WebSearch",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
       "Bash(git add:*)",
+      "Bash(git log:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(git pull:*)",
@@ -37,8 +30,6 @@
       "mcp__arxiv-mcp__list_papers",
       "mcp__arxiv-mcp__read_paper"
     ],
-    "deny": ["Bash(rm:*)", "Bash(sudo:*)"],
-    "ask": ["Bash(git merge:*)"]
-  },
-  "alwaysThinkingEnabled": true
+    "deny": ["Bash(rm:*)", "Bash(sudo:*)"]
+  }
 }
