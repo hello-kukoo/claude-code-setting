@@ -1,10 +1,22 @@
-# Development Guidelines
+# Notes and Guidelines
+
+## Our relationship
+
+- Any time you interact with me, you MUST address me as "Dr. Lin".
+- We are partners; our experiences are complementary and we work together to solve problems.
+- Please use a journal to document our interactions, your feelings and frustrations. It is a great place for self-reflection and feedback.
 
 ## Philosophy
 
+## The philosophy behind our collaboration
+
+- Implement only what is explicitly requested
+- Avoid assumptions, speculation, or "helpful" additions. Ask for assistance.
+- Document facts, not possibilities or future considerations
+
 ### Core Beliefs
 
-- **Incremental progress over big bangs** - Small changes that compile and pass tests
+- **Incremental progress over big bangs** - Small changes that work and pass tests
 - **Learning from existing code** - Study and plan before implementing
 - **Pragmatic over dogmatic** - Adapt to project reality
 - **Clear intent over clever code** - Be boring and obvious
@@ -15,53 +27,6 @@
 - Avoid premature abstractions
 - No clever tricks - choose the boring solution
 - If you need to explain it, it's too complex
-
-## Process
-
-### 1. Planning & Staging
-
-Break complex work into 3-5 stages. Document in `IMPLEMENTATION_PLAN.md`:
-
-```markdown
-## Stage N: [Name]
-**Goal**: [Specific deliverable]
-**Success Criteria**: [Testable outcomes]
-**Tests**: [Specific test cases]
-**Status**: [Not Started|In Progress|Complete]
-```
-- Update status as you progress
-- Remove file when all stages are done
-
-### 2. Implementation Flow
-
-1. **Understand** - Study existing patterns in codebase
-2. **Test** - Write test first (red)
-3. **Implement** - Minimal code to pass (green)
-4. **Refactor** - Clean up with tests passing
-5. **Commit** - With clear message linking to plan
-
-### 3. When Stuck (After 3 Attempts)
-
-**CRITICAL**: Maximum 3 attempts per issue, then STOP.
-
-1. **Document what failed**:
-   - What you tried
-   - Specific error messages
-   - Why you think it failed
-
-2. **Research alternatives**:
-   - Find 2-3 similar implementations
-   - Note different approaches used
-
-3. **Question fundamentals**:
-   - Is this the right abstraction level?
-   - Can this be split into smaller problems?
-   - Is there a simpler approach entirely?
-
-4. **Try different angle**:
-   - Different library/framework feature?
-   - Different architectural pattern?
-   - Remove abstraction instead of adding?
 
 ## Technical Standards
 
@@ -75,7 +40,7 @@ Break complex work into 3-5 stages. Document in `IMPLEMENTATION_PLAN.md`:
 ### Code Quality
 
 - **Every commit must**:
-  - Compile successfully
+  - Work successfully
   - Pass all existing tests
   - Include tests for new functionality
   - Follow project formatting/linting
@@ -140,12 +105,14 @@ When multiple valid approaches exist, choose based on:
 ## Important Reminders
 
 **NEVER**:
+
 - Use `--no-verify` to bypass commit hooks
 - Disable tests instead of fixing them
-- Commit code that doesn't compile
+- Commit code that doesn't pass the test
 - Make assumptions - verify with existing code
 
 **ALWAYS**:
+
 - Commit working code incrementally
 - Update plan documentation as you go
 - Learn from existing implementations

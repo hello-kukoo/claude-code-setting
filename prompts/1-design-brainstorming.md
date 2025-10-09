@@ -8,6 +8,6 @@ Ideally, the questions would be multiple choice, but open-ended questions are OK
 
 Once you believe you understand what we're doing, stop and describe the design to me, in sections of maybe 200-300 words at a time, asking after each section whether it looks right so far.
 
-Now that we’ve wrapped up the brainstorming process, can you compile our findings into a comprehensive, developer-ready specification? Include all relevant requirements, architecture choices, data handling details, error handling strategies, and a testing plan so a developer can immediately begin implementation. Save the document into `docs/design-spec.md`.
+Now that we’ve wrapped up the brainstorming process, can you compile our findings into a comprehensive, developer-ready specification? Include all relevant requirements, architecture choices, data handling details, error handling strategies, and a testing plan so a developer can immediately begin implementation. Save the document into `docs/spec.md`.
 
 <!--You can use this spec for a number of things. We are doing codegen here, but I have used it to bolster ideas by asking a reasoning model to poke holes in the idea (must go deeper!), to generate a white paper, or to generate a business model. You can pop it into deep research and get a 10k word supporting document in return.-->

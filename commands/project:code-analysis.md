@@ -5,6 +5,10 @@ argument-hint: "[file-or-directory-path]"
 allowed-tools: Read, Grep, Glob, TodoWrite
 ---
 
+# Comprehensive Code Analysis
+
+**Command**: `/project:code-analysis`
+
 Perform a comprehensive code analysis on the specified files or directory. If no path is provided, analyze the current working directory.
 
 ## Analysis Process:
@@ -37,9 +41,10 @@ Perform a comprehensive code analysis on the specified files or directory. If no
    - Organize by fix complexity and impact
 
 ## Example Usage:
-- `/code_analysis` - Analyze entire current directory
-- `/code_analysis src/` - Analyze all code in src directory
-- `/code_analysis app.js` - Analyze specific file
-- `/code_analysis "src/**/*.py"` - Analyze all Python files in src
+
+- `/code-analysis` - Analyze entire current directory
+- `/code-analysis src/` - Analyze all code in src directory
+- `/code-analysis app.js` - Analyze specific file
+- `/code-analysis "src/**/*.py"` - Analyze all Python files in src
 
 Target path: $ARGUMENTS
