@@ -4,6 +4,7 @@ projects/
 shell-snapshots/
 statsig/
 todos/
+debug/
 .DS_Store
 history.jsonl
 auth.json
