@@ -1,0 +1,1 @@
+/Users/linyong/.clank/clank/commands/write-plan.md
