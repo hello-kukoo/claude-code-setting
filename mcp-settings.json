@@ -1,0 +1,106 @@
+"mcpServers": {
+  "playwright": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "@playwright/mcp@latest"
+    ]
+  },
+  "serena": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "--from",
+      "git+https://github.com/oraios/serena",
+      "serena",
+      "start-mcp-server",
+      "--context",
+      "ide-assistant"
+    ],
+    "env": {}
+  },
+  "context7": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@upstash/context7-mcp",
+      "--api-key",
+      "${CONTEXT7_API_KEY}"
+    ]
+  },
+  "repomix": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "repomix", "--mcp"],
+    "disabled": false,
+    "autoApprove": []
+  },
+  "sequential-thinking": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+  },
+  "arxiv-mcp": {
+    "type": "stdio",
+    "command": "uv",
+    "args": [
+      "tool",
+      "run",
+      "arxiv-mcp-server",
+      "--storage-path",
+      "/Users/linyong/Downloads/arxiv"
+    ]
+  },
+  "zotero": {
+    "type": "stdio",
+    "command": "uv",
+    "args": ["tool", "run", "zotero-mcp"],
+    "env": {
+      "ZOTERO_LOCAL": "true"
+    }
+  },
+  "obsidian": {
+    "type": "stdio",
+    "command": "uv",
+    "args": [
+      "tool",
+      "run",
+      "mcp-obsidian",
+      "--vault-path",
+      "/Users/linyong/Library/Mobile Documents/iCloud~md~obsidian/Documents/LifeOS"
+    ],
+    "env": {
+      "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}"
+    }
+  },
+  "word-document-server": {
+    "command": "uvx",
+    "args": ["--from", "office-word-mcp-server", "word_mcp_server"]
+  },
+  "excel-sheet-server": {
+    "command": "uvx",
+    "args": ["excel-mcp-server", "stdio"]
+  },
+  "ppt-slides-server": {
+    "command": "uvx",
+    "args": ["--from", "office-powerpoint-mcp-server", "ppt_mcp_server"],
+    "env": {}
+  },
+  "grep": {
+    "type": "http",
+    "url": "https://mcp.grep.app"
+  },
+  "tavily": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://mcp.tavily.com/mcp/?tavilyApiKey=${TAVILY_API_KEY}"
+    ],
+    "env": {
+      "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+    }
+  }
+}

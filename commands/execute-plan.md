@@ -1,1 +1,0 @@
-/Users/linyong/.clank/clank/commands/execute-plan.md

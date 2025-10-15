@@ -5,6 +5,7 @@ shell-snapshots/
 statsig/
 todos/
 debug/
+file-history/
 .DS_Store
 history.jsonl
 auth.json
