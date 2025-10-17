@@ -19,7 +19,7 @@ Your job is thinking very hard and then to craft a clear, detailed implementatio
 [ ] Iterate until you feel that the steps are right sized for this project.
 [ ] Integrate the whole plan into one list, organized by phase. Make sure and separate each phase section.
 [ ] Use markdown. Store the final iteration in `docs/prompt_plan.md`.
-[ ] Make a **`todo.md`** \*\*that I can use as a checklist. Be thorough.
+[ ] Make a **`todo.md`** that I can use as a checklist. Be thorough.
 
 From here you should have the foundation to provide a series of prompts for a code-generation LLM agent that will implement each step in a test-driven manner. Prioritize best practices, and incremental progress, ensuring no big jumps in complexity at any stage. Make sure that each prompt builds on the previous prompts, and ends with wiring things together. There should be no hanging or orphaned code that isn't integrated into a previous step.
 
