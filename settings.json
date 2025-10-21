@@ -48,7 +48,6 @@
       "mcp__arxiv-mcp__read_paper"
     ],
     "deny": [
-      "Bash(rm:*)",
       "Bash(dd:*)",
       "Bash(fdisk:*)",
       "Bash(su:*)",
@@ -58,10 +57,9 @@
       "Read(id_ed25519)",
       "Read(id_rsa)",
       "Write(.env*)",
-      "Write(**/secrets/**)",
-      "Bash(git rebase:*)",
-      "Bash(git reset:*)"
-    ]
+      "Write(**/secrets/**)"
+    ],
+    "ask": ["Bash(rm:*)", "Bash(git rebase:*)", "Bash(git reset:*)"]
   },
   "alwaysThinkingEnabled": true
 }
