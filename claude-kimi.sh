@@ -10,14 +10,11 @@ echo "----------------------------------------"
 
 export ANTHROPIC_BASE_URL="https://api.moonshot.cn/anthropic"
 export ANTHROPIC_AUTH_TOKEN=$MOONSHOT_API_KEY
-export ANTHROPIC_MODEL="kimi-k2-0905-preview"
+export ANTHROPIC_MODEL="kimi-k2-turbo-preview"
 export ANTHROPIC_SMALL_FAST_MODEL="kimi-k2-turbo-preview"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="kimi-k2-0905-preview"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="kimi-k2-0905-preview"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="kimi-k2-0905-preview"
-export CLAUDE_CODE_MAX_OUTPUT_TOKENS="262144"
-export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
-export ANTHROPIC_LOG="error"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="kimi-k2-turbo-preview"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="kimi-k2-turbo-preview"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="kimi-k2-turbo-preview"
 
 
 # 启动Claude Code

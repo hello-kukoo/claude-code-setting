@@ -19,8 +19,8 @@ Your personal wiki of proven techniques, patterns, and tools.
 - skills/debugging - Finding and fixing bugs systematically
 - skills/architecture - Designing systems and data structures
 - skills/collaboration - Working with other agents and developers
+- skills/document-skills - Comprehensive document manupluation skills (docx, pptx, xlsx, pdf)
 - skills/meta - Using and creating skills
-- skills/documenting - Comprehensive document manupluation skills.
 
 ## Navigation
 

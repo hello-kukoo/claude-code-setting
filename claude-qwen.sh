@@ -10,14 +10,11 @@ echo "----------------------------------------"
 
 export ANTHROPIC_BASE_URL="https://dashscope.aliyuncs.com/apps/anthropic"
 export ANTHROPIC_AUTH_TOKEN=$ALIYUNCS_API_KEY
-export ANTHROPIC_MODEL="qwen3-coder-plus-2025-09-23"
-export ANTHROPIC_SMALL_FAST_MODEL="qwen3-coder-plus-2025-09-23"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="qwen3-coder-plus-2025-09-23"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="qwen3-coder-plus-2025-09-23"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="qwen3-coder-plus-2025-09-23"
-export CLAUDE_CODE_MAX_OUTPUT_TOKENS="1048576"
-export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
-export ANTHROPIC_LOG="error"
+export ANTHROPIC_MODEL="qwen-max"
+export ANTHROPIC_SMALL_FAST_MODEL="qwen-max"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="qwen-max"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="qwen-max"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="qwen-max"
 
 # 启动Claude Code
 # --dangerously-skip-permissions 参数用于跳过权限检查

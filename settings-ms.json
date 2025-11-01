@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-ai/DeepSeek-R1-0528",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "ANTHROPIC_BASE_URL": "https://api-inference.modelscope.cn",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "ANTHROPIC_AUTH_TOKEN": "$MODELSCOPE_API_KEY"
+  }
+}
