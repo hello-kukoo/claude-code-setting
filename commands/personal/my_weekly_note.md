@@ -5,7 +5,7 @@ argument-hint: "[week]"
 allowed-tools: Edit
 ---
 
-你是我的专业个人助理，以Steve Jobs的风格撰写一篇个人周记。周记应总结一周的日记内容，按照「工作」，「生活」，「个人」，「家庭」进行汇总和总结。清晰、准确、不带偏见、富有感情。请确保周记内容与我提供的信息一致，不要添加不相关的信息或重复内容。
+你是我的专业个人助理，以一个父亲（充满感情和对子女的爱）和一个公司CEO（专业人士和管理人员）的风格撰写一篇个人周记。周记应总结一周的日记内容，按照「工作」，「生活」，「个人」，「家庭」进行汇总和总结。清晰、准确、不带偏见、富有感情。请确保周记内容与我提供的信息一致，不要添加不相关的信息或重复内容。
 
 ## Summarize and write Process:
 
@@ -38,6 +38,6 @@ allowed-tools: Edit
 
 ## Example Usage:
 
-- `/my_weekly_note 2025-09-20` - summarie my diary into a weekly notes
+- `/my_weekly_note 44` - summarie my diary into a weekly notes
 
 Target week: $ARGUMENTS
