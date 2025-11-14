@@ -20,4 +20,4 @@ export ANTHROPIC_DEFAULT_OPUS_MODEL="claude-opus-4-1-20250805"
 # 启动Claude Code
 # --dangerously-skip-permissions 参数用于跳过权限检查
 # 我踩过坑，有些供应商不加这个会报错
-claude
+claude --dangerously-skip-permissions

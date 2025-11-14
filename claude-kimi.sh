@@ -10,14 +10,14 @@ echo "----------------------------------------"
 
 export ANTHROPIC_BASE_URL="https://api.moonshot.cn/anthropic"
 export ANTHROPIC_AUTH_TOKEN=$MOONSHOT_API_KEY
-export ANTHROPIC_MODEL="kimi-k2-turbo-preview"
+export ANTHROPIC_MODEL="kimi-k2-thinking"
 export ANTHROPIC_SMALL_FAST_MODEL="kimi-k2-turbo-preview"
 export ANTHROPIC_DEFAULT_HAIKU_MODEL="kimi-k2-turbo-preview"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="kimi-k2-turbo-preview"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="kimi-k2-turbo-preview"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="kimi-k2-thinking"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="kimi-k2-thinking"
 
 
 # 启动Claude Code
 # --dangerously-skip-permissions 参数用于跳过权限检查
 # 我踩过坑，有些供应商不加这个会报错
-claude
+claude --dangerously-skip-permissions
