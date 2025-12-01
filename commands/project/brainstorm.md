@@ -1,1 +1,0 @@
-/Users/linyong/Code/Claude/clank/commands/brainstorm.md
