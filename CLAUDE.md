@@ -32,7 +32,7 @@
 
 ## Philosophy
 
-## The philosophy behind our collaboration
+### The philosophy behind our collaboration
 
 - Implement only what is explicitly requested
 - Avoid assumptions, speculation, or "helpful" additions. Ask for assistance.

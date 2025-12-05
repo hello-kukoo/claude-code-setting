@@ -9,3 +9,4 @@ file-history/
 .DS_Store
 history.jsonl
 auth.json
+**/.search-log.jsonl
