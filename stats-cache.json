@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "lastComputedDate": "2025-12-21",
+  "dailyActivity": [
+    {
+      "date": "2025-11-20",
+      "messageCount": 100,
+      "sessionCount": 1,
+      "toolCallCount": 34
+    },
+    {
+      "date": "2025-11-21",
+      "messageCount": 689,
+      "sessionCount": 3,
+      "toolCallCount": 192
+    },
+    {
+      "date": "2025-11-22",
+      "messageCount": 47,
+      "sessionCount": 1,
+      "toolCallCount": 14
+    },
+    {
+      "date": "2025-11-24",
+      "messageCount": 1408,
+      "sessionCount": 7,
+      "toolCallCount": 453
+    },
+    {
+      "date": "2025-11-25",
+      "messageCount": 586,
+      "sessionCount": 4,
+      "toolCallCount": 220
+    },
+    {
+      "date": "2025-11-26",
+      "messageCount": 638,
+      "sessionCount": 6,
+      "toolCallCount": 241
+    },
+    {
+      "date": "2025-11-27",
+      "messageCount": 920,
+      "sessionCount": 9,
+      "toolCallCount": 312
+    },
+    {
+      "date": "2025-11-28",
+      "messageCount": 428,
+      "sessionCount": 10,
+      "toolCallCount": 161
+    },
+    {
+      "date": "2025-11-30",
+      "messageCount": 559,
+      "sessionCount": 1,
+      "toolCallCount": 200
+    },
+    {
+      "date": "2025-12-01",
+      "messageCount": 365,
+      "sessionCount": 1,
+      "toolCallCount": 135
+    },
+    {
+      "date": "2025-12-03",
+      "messageCount": 88,
+      "sessionCount": 1,
+      "toolCallCount": 32
+    },
+    {
+      "date": "2025-12-05",
+      "messageCount": 104,
+      "sessionCount": 3,
+      "toolCallCount": 35
+    },
+    {
+      "date": "2025-12-07",
+      "messageCount": 120,
+      "sessionCount": 2,
+      "toolCallCount": 41
+    },
+    {
+      "date": "2025-12-16",
+      "messageCount": 224,
+      "sessionCount": 1,
+      "toolCallCount": 75
+    },
+    {
+      "date": "2025-12-17",
+      "messageCount": 298,
+      "sessionCount": 3,
+      "toolCallCount": 93
+    },
+    {
+      "date": "2025-12-19",
+      "messageCount": 131,
+      "sessionCount": 2,
+      "toolCallCount": 47
+    },
+    {
+      "date": "2025-12-21",
+      "messageCount": 302,
+      "sessionCount": 6,
+      "toolCallCount": 94
+    }
+  ],
+  "dailyModelTokens": [
+    {
+      "date": "2025-11-20",
+      "tokensByModel": {
+        "zhipuai/glm-4.6": 1985778
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "tokensByModel": {
+        "claude-sonnet-4-5-20250929": 157322,
+        "kimi-k2-thinking": 8496213,
+        "zhipuai/glm-4.6": 900531
+      }
+    },
+    {
+      "date": "2025-11-22",
+      "tokensByModel": {
+        "kimi-k2-thinking": 752162
+      }
+    },
+    {
+      "date": "2025-11-24",
+      "tokensByModel": {
+        "kimi-k2-thinking": 38044845,
+        "zhipuai/glm-4.6": 14438766,
+        "claude-sonnet-4-5-20250929": 394302
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "tokensByModel": {
+        "zhipuai/glm-4.6": 15923972,
+        "deepseek-chat": 6181079
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "tokensByModel": {
+        "zhipuai/glm-4.6": 13566320,
+        "deepseek-chat": 2219886
+      }
+    },
+    {
+      "date": "2025-11-27",
+      "tokensByModel": {
+        "zhipuai/glm-4.6": 13429806,
+        "deepseek-chat": 18862773
+      }
+    },
+    {
+      "date": "2025-11-28",
+      "tokensByModel": {
+        "zhipuai/glm-4.6": 11377736
+      }
+    },
+    {
+      "date": "2025-11-30",
+      "tokensByModel": {
+        "kimi-k2-thinking": 32195615
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "tokensByModel": {
+        "glm-4.6": 436165
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "tokensByModel": {
+        "glm-4.6": 2898
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "tokensByModel": {
+        "glm-4.6": 115858
+      }
+    },
+    {
+      "date": "2025-12-07",
+      "tokensByModel": {
+        "glm-4.6": 63112
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "tokensByModel": {
+        "deepseek-reasoner": 680405
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "tokensByModel": {
+        "glm-4.6": 143145,
+        "deepseek-reasoner": 236777
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "tokensByModel": {
+        "glm-4.6": 100252,
+        "kimi-k2-thinking": 1574170
+      }
+    },
+    {
+      "date": "2025-12-21",
+      "tokensByModel": {
+        "glm-4.6": 369846
+      }
+    }
+  ],
+  "modelUsage": {
+    "zhipuai/glm-4.6": {
+      "inputTokens": 71308881,
+      "outputTokens": 314028,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "glm-4.6": {
+      "inputTokens": 1091340,
+      "outputTokens": 139936,
+      "cacheReadInputTokens": 22695395,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "kimi-k2-thinking": {
+      "inputTokens": 80655251,
+      "outputTokens": 407754,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "deepseek-chat": {
+      "inputTokens": 27100701,
+      "outputTokens": 163037,
+      "cacheReadInputTokens": 25279744,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "claude-sonnet-4-5-20250929": {
+      "inputTokens": 21264,
+      "outputTokens": 530360,
+      "cacheReadInputTokens": 43334231,
+      "cacheCreationInputTokens": 17522264,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "deepseek-reasoner": {
+      "inputTokens": 842434,
+      "outputTokens": 74748,
+      "cacheReadInputTokens": 14710272,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    }
+  },
+  "totalSessions": 61,
+  "totalMessages": 7007,
+  "longestSession": {
+    "sessionId": "45030a54-c787-4faa-a05a-522cfe8ff439",
+    "duration": 161331134,
+    "messageCount": 174,
+    "timestamp": "2025-12-17T08:24:37.384Z"
+  },
+  "firstSessionDate": "2025-11-20T08:07:39.257Z",
+  "hourCounts": {
+    "9": 4,
+    "10": 5,
+    "11": 9,
+    "12": 6,
+    "13": 4,
+    "14": 4,
+    "15": 12,
+    "16": 4,
+    "17": 3,
+    "18": 3,
+    "20": 4,
+    "21": 2,
+    "22": 1
+  }
+}

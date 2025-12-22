@@ -68,9 +68,9 @@
   "enabledPlugins": {
     "superpowers@superpowers-marketplace": false,
     "elements-of-style@superpowers-marketplace": true,
-    "document-skills@anthropic-agent-skills": true,
+    "document-skills@anthropic-agent-skills": false,
     "episodic-memory@superpowers-marketplace": false,
     "superpowers-developing-for-claude-code@superpowers-marketplace": false
   },
-  "alwaysThinkingEnabled": false
+  "alwaysThinkingEnabled": true
 }
