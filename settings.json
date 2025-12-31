@@ -70,7 +70,11 @@
     "elements-of-style@superpowers-marketplace": true,
     "document-skills@anthropic-agent-skills": false,
     "episodic-memory@superpowers-marketplace": false,
-    "superpowers-developing-for-claude-code@superpowers-marketplace": false
+    "superpowers-developing-for-claude-code@superpowers-marketplace": false,
+    "scientific-skills@claude-scientific-skills": true,
+    "context7@claude-plugins-official": false,
+    "learning-output-style@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true
   },
   "alwaysThinkingEnabled": true
 }
