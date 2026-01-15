@@ -21,12 +21,10 @@
       "Bash(git status)",
       "Bash(git diff:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)",
       "Bash(git pull:*)",
       "Bash(git checkout:*)",
       "Bash(git branch:*)",
       "Bash(cat:*)",
-      "Bash(curl:*)",
       "Bash(fd:*)",
       "Bash(file:*)",
       "Bash(find:*)",
@@ -53,6 +51,7 @@
       "Bash(su:*)",
       "Bash(sudo:*)",
       "Bash(wget:*)",
+      "Bash(curl:*)",
       "Read(.env.*)",
       "Read(id_ed25519)",
       "Read(id_rsa)",
@@ -62,11 +61,17 @@
     "ask": [
       "Bash(rm:*)",
       "Bash(git rebase:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(git push:*)"
     ]
   },
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y ccstatusline@latest",
+    "padding": 0
+  },
   "enabledPlugins": {
-    "superpowers@superpowers-marketplace": false,
+    "superpowers@superpowers-marketplace": true,
     "elements-of-style@superpowers-marketplace": true,
     "document-skills@anthropic-agent-skills": false,
     "episodic-memory@superpowers-marketplace": false,

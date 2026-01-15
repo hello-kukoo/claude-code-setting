@@ -2,11 +2,14 @@ ide/
 plugins/
 projects/
 shell-snapshots/
+session-env/
 statsig/
 todos/
 debug/
 file-history/
+transcripts/
 .DS_Store
 history.jsonl
 auth.json
 **/.search-log.jsonl
+cache/
