@@ -13,3 +13,5 @@ history.jsonl
 auth.json
 **/.search-log.jsonl
 cache/
+tasks/
+

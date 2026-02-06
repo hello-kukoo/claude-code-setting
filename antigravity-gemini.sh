@@ -14,11 +14,10 @@ export ANTHROPIC_LOG="error"
 export ANTHROPIC_AUTH_TOKEN=$ANTIGRAVITY_API_KEY
 export ANTHROPIC_BASE_URL="http://127.0.0.1:8045"
 export ANTHROPIC_MODEL="gemini-3-pro-low"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="gemini-3-pro-low"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="gemini-3-flash"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="gemini-3-pro-high"
 export ANTHROPIC_DEFAULT_SONNET_MODEL="gemini-3-pro-high"
 export ANTHROPIC_SMALL_FAST_MODEL="gemini-3-flash"
-export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 
 # 启动Claude Code
 # --dangerously-skip-permissions 参数用于跳过权限检查
