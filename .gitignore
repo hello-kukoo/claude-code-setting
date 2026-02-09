@@ -14,4 +14,5 @@ auth.json
 **/.search-log.jsonl
 cache/
 tasks/
+usage-data/
 

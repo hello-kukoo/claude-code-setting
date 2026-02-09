@@ -14,10 +14,10 @@ export CLADUE_CODE_MAX_OUTPUT_TOKENS=1000000
 
 export ANTHROPIC_AUTH_TOKEN=$ANTIGRAVITY_API_KEY
 export ANTHROPIC_BASE_URL="http://127.0.0.1:8045"
-export ANTHROPIC_MODEL="claude-sonnet-4-5"
+export ANTHROPIC_MODEL="claude-opus-4-5-thinking"
 export ANTHROPIC_DEFAULT_HAIKU_MODEL="claude-sonnet-4-5"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="claude-opus-4-5-thinking"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="claude-sonnet-4-5-thinking"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="claude-opus-4-5-thinking"
 export ANTHROPIC_SMALL_FAST_MODEL="gemini-3-flash"
 
 # 启动Claude Code

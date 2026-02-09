@@ -75,7 +75,7 @@
     "elements-of-style@superpowers-marketplace": true,
     "document-skills@anthropic-agent-skills": false,
     "episodic-memory@superpowers-marketplace": false,
-    "scientific-skills@claude-scientific-skills": true,
+    "scientific-skills@claude-scientific-skills": false,
     "learning-output-style@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": false,
     "explanatory-output-style@claude-plugins-official": true,
