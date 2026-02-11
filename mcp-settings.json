@@ -1,11 +1,8 @@
 "mcpServers": {
-  "pubmedmcp": {
-    "command": "uvx",
-    "args": ["pubmedmcp@latest"],
-    "env": {
-      "UV_PRERELEASE": "allow",
-      "UV_PYTHON": "3.12"
-    }
+  "pubmed": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "@ncukondo/pubmed-mcp"]
   },
   "playwright": {
     "type": "stdio",

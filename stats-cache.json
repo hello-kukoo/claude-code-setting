@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastComputedDate": "2026-02-05",
+  "lastComputedDate": "2026-02-10",
   "dailyActivity": [
     {
       "date": "2026-01-03",
@@ -145,6 +145,36 @@
       "messageCount": 1369,
       "sessionCount": 25,
       "toolCallCount": 303
+    },
+    {
+      "date": "2026-02-06",
+      "messageCount": 862,
+      "sessionCount": 27,
+      "toolCallCount": 153
+    },
+    {
+      "date": "2026-02-07",
+      "messageCount": 398,
+      "sessionCount": 8,
+      "toolCallCount": 69
+    },
+    {
+      "date": "2026-02-08",
+      "messageCount": 1371,
+      "sessionCount": 25,
+      "toolCallCount": 295
+    },
+    {
+      "date": "2026-02-09",
+      "messageCount": 548,
+      "sessionCount": 18,
+      "toolCallCount": 97
+    },
+    {
+      "date": "2026-02-10",
+      "messageCount": 1206,
+      "sessionCount": 11,
+      "toolCallCount": 260
     }
   ],
   "dailyModelTokens": [
@@ -314,13 +344,57 @@
         "claude-sonnet-4-5": 934536,
         "gemini-3-pro-high": 844856
       }
+    },
+    {
+      "date": "2026-02-06",
+      "tokensByModel": {
+        "claude-sonnet-4-5": 199798,
+        "gemini-3-pro-high": 181666,
+        "claude-sonnet-4-5-thinking": 1027871,
+        "claude-opus-4-5-thinking": 218081
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "tokensByModel": {
+        "claude-sonnet-4-5": 139928,
+        "claude-sonnet-4-5-thinking": 502528
+      }
+    },
+    {
+      "date": "2026-02-08",
+      "tokensByModel": {
+        "gemini-3-pro-high": 486158,
+        "claude-sonnet-4-5": 1573572,
+        "claude-opus-4-5-thinking": 373531,
+        "claude-sonnet-4-5-thinking": 533011
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "tokensByModel": {
+        "claude-sonnet-4-5": 498854,
+        "claude-opus-4-5-thinking": 28349,
+        "gemini-3-flash": 79197,
+        "gemini-3-pro-high": 17256,
+        "claude-sonnet-4-5-thinking": 60283
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "tokensByModel": {
+        "gemini-3-pro-high": 672152,
+        "glm-4.7": 127859,
+        "claude-sonnet-4-5-thinking": 1706400,
+        "claude-sonnet-4-5": 1290787
+      }
     }
   ],
   "modelUsage": {
     "glm-4.7": {
-      "inputTokens": 2110652,
-      "outputTokens": 147630,
-      "cacheReadInputTokens": 26537984,
+      "inputTokens": 2213033,
+      "outputTokens": 173108,
+      "cacheReadInputTokens": 27598592,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -328,9 +402,9 @@
       "maxOutputTokens": 0
     },
     "claude-sonnet-4-5-thinking": {
-      "inputTokens": 45249082,
-      "outputTokens": 1330338,
-      "cacheReadInputTokens": 56839139,
+      "inputTokens": 48787045,
+      "outputTokens": 1622468,
+      "cacheReadInputTokens": 59103132,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -338,9 +412,9 @@
       "maxOutputTokens": 0
     },
     "gemini-3-pro-high": {
-      "inputTokens": 20249546,
-      "outputTokens": 472744,
-      "cacheReadInputTokens": 26937597,
+      "inputTokens": 21578074,
+      "outputTokens": 501448,
+      "cacheReadInputTokens": 26995532,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -368,9 +442,9 @@
       "maxOutputTokens": 0
     },
     "claude-sonnet-4-5": {
-      "inputTokens": 6459648,
-      "outputTokens": 423072,
-      "cacheReadInputTokens": 9512275,
+      "inputTokens": 9911673,
+      "outputTokens": 673986,
+      "cacheReadInputTokens": 11598322,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -386,10 +460,30 @@
       "costUSD": 0,
       "contextWindow": 0,
       "maxOutputTokens": 0
+    },
+    "claude-opus-4-5-thinking": {
+      "inputTokens": 580865,
+      "outputTokens": 39096,
+      "cacheReadInputTokens": 410119,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0,
+      "maxOutputTokens": 0
+    },
+    "gemini-3-flash": {
+      "inputTokens": 77471,
+      "outputTokens": 1726,
+      "cacheReadInputTokens": 3640,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0,
+      "maxOutputTokens": 0
     }
   },
-  "totalSessions": 271,
-  "totalMessages": 13488,
+  "totalSessions": 360,
+  "totalMessages": 17873,
   "longestSession": {
     "sessionId": "310841d0-bb00-4748-9c68-cf966d5b9e99",
     "duration": 234168626,
@@ -398,21 +492,23 @@
   },
   "firstSessionDate": "2026-01-03T12:48:13.033Z",
   "hourCounts": {
-    "9": 8,
-    "10": 33,
-    "11": 22,
-    "12": 12,
-    "13": 30,
-    "14": 30,
-    "15": 30,
-    "16": 21,
-    "17": 31,
-    "18": 20,
-    "19": 7,
-    "20": 10,
-    "21": 2,
-    "22": 3,
-    "23": 12
+    "0": 3,
+    "1": 3,
+    "9": 12,
+    "10": 35,
+    "11": 32,
+    "12": 15,
+    "13": 41,
+    "14": 43,
+    "15": 37,
+    "16": 26,
+    "17": 37,
+    "18": 25,
+    "19": 10,
+    "20": 15,
+    "21": 4,
+    "22": 8,
+    "23": 14
   },
   "totalSpeculationTimeSavedMs": 0
 }

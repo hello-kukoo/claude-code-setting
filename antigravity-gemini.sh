@@ -10,13 +10,15 @@ echo "----------------------------------------"
 export API_TIMEOUT_MS=3000000
 export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
 export ANTHROPIC_LOG="error"
+export CLADUE_CODE_MAX_OUTPUT_TOKENS=1000000
+export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS="1"
 
 export ANTHROPIC_AUTH_TOKEN=$ANTIGRAVITY_API_KEY
 export ANTHROPIC_BASE_URL="http://127.0.0.1:8045"
 export ANTHROPIC_MODEL="gemini-3-pro-low"
 export ANTHROPIC_DEFAULT_HAIKU_MODEL="gemini-3-flash"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="gemini-3-pro-high"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="gemini-3-pro-high"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="gemini-3-pro-low"
 export ANTHROPIC_SMALL_FAST_MODEL="gemini-3-flash"
 
 # 启动Claude Code
