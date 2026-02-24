@@ -8,13 +8,13 @@ echo "----------------------------------------"
 
 # cp ~/.claude/settings-qwen.json ~/.claude/settings.json
 
-export ANTHROPIC_BASE_URL="https://dashscope.aliyuncs.com/api/v2/apps/claude-code-proxy"
+export ANTHROPIC_BASE_URL="https://dashscope.aliyuncs.com/apps/anthropic
 export ANTHROPIC_AUTH_TOKEN=$ALIYUNCS_API_KEY
-export ANTHROPIC_MODEL="qwen3-max-preview"
-export ANTHROPIC_SMALL_FAST_MODEL="qwen-plus"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="qwen-plus"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="qwen3-max-preview"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="qwen3-max-preview"
+export ANTHROPIC_MODEL="qwen3.5-plus"
+export ANTHROPIC_SMALL_FAST_MODEL="qwen-flash"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="qwen3.5-plus"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="qwen3.5-plus"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="qwen3-max-2026-01-23"
 
 # 启动Claude Code
 # --dangerously-skip-permissions 参数用于跳过权限检查

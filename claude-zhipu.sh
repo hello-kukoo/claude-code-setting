@@ -7,12 +7,12 @@ echo "⏰ 启动时间: $(date)"
 echo "----------------------------------------"
 
 # cp ~/.claude/settings-zhipu.json ~/.claude/settings.json
-
+export ANTHROPIC_BASE_URL="https://open.bigmodel.cn/api/anthropic"
 export ANTHROPIC_AUTH_TOKEN=$ZAI_API_KEY
 export ANTHROPIC_MODEL="glm-4.7"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="glm-4.7-flash"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="glm-4.7"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="glm-4.7"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="glm-4.7"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="glm-5"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="glm-5"
 export ANTHROPIC_SMALL_FAST_MODEL="glm-4.7-flash"
 
 # 启动Claude Code

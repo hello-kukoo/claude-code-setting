@@ -1,0 +1,1379 @@
+{
+  "numStartups": 574,
+  "installMethod": "native",
+  "autoUpdates": false,
+  "autoCompactEnabled": false,
+  "hasSeenTasksHint": true,
+  "tipsHistory": {
+    "# for memory": 240,
+    "agent-flag": 565,
+    "btw-side-question": 442,
+    "config-thinking-mode": 442,
+    "continue": 572,
+    "custom-agents": 560,
+    "custom-commands": 569,
+    "default-permission-mode-config": 570,
+    "desktop-app": 562,
+    "double-esc": 157,
+    "double-esc-code-restore": 568,
+    "drag-and-drop-images": 568,
+    "enter-to-steer-in-relatime": 574,
+    "frontend-design-plugin": 564,
+    "git-worktrees": 567,
+    "ide-hotkey": 90,
+    "ide-upsell-external-terminal": 163,
+    "image-paste": 557,
+    "install-github-app": 566,
+    "install-slack-app": 572,
+    "memory-command": 561,
+    "mobile-app": 563,
+    "new-user-warmup": 9,
+    "paste-images-mac": 568,
+    "permissions": 572,
+    "plan-mode-for-complex-tasks": 568,
+    "prompt-queue": 53,
+    "rename-conversation": 561,
+    "shift-enter": 570,
+    "shift-tab": 573,
+    "status-line": 357,
+    "stickers-command": 436,
+    "tab-toggle-thinking": 238,
+    "terminal-setup": 13,
+    "theme-command": 556,
+    "todo-list": 555,
+    "ultrathink-keyword": 442,
+    "web-app": 563
+  },
+  "promptQueueUseCount": 542,
+  "autoConnectIde": true,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_glob_with_rg": false,
+    "tengu_migrate_ignore_patterns": false,
+    "tengu_prompt_suggestion": false,
+    "tengu_tool_pear": false,
+    "tengu_use_file_checkpoints": false,
+    "tengu_vscode_review_upsell": false,
+    "tengu_web_tasks": false,
+    "tengu_year_end_2025_campaign_promo": false
+  },
+  "cachedDynamicConfigs": {
+    "tengu-top-of-feed-tip": {
+      "color": "dim",
+      "tip": ""
+    }
+  },
+  "cachedGrowthBookFeatures": {
+    "enhanced_telemetry_beta": false,
+    "tengu_1p_event_batch_config": {
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192,
+      "scheduledDelayMillis": 5000
+    },
+    "tengu_attribution_header": false,
+    "tengu_brass_pebble": false,
+    "tengu_cache_plum_violet": false,
+    "tengu_claudeai_mcp_connectors": true,
+    "tengu_coral_fern": false,
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_event_sampling_config": {},
+    "tengu_keybinding_customization_release": true,
+    "tengu_log_datadog_events": true,
+    "tengu_log_segment_events": false,
+    "tengu_marble_anvil": true,
+    "tengu_marble_kite": false,
+    "tengu_mcp_tool_search": false,
+    "tengu_pid_based_version_locking": true,
+    "tengu_scarf_coffee": false,
+    "tengu_scratch": false,
+    "tengu_streaming_tool_execution2": true,
+    "tengu_system_prompt_global_cache": false,
+    "tengu_thinkback": false,
+    "tengu_tool_pear": false,
+    "tengu_tool_search_unsupported_models": [
+      "haiku"
+    ],
+    "tengu_workout": false
+  },
+  "autoUpdatesProtectedForNative": true,
+  "cachedChromeExtensionInstalled": false,
+  "changelogLastFetched": 1759648204745,
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1771658473785
+  },
+  "feedbackSurveyState": {
+    "lastShownTime": 1758683060937
+  },
+  "firstStartTime": "2025-09-18T10:32:34.912Z",
+  "githubRepoPaths": {
+    "hello-kukoo/awesome-readings": [
+      "/Users/linyong/Library/Mobile Documents/iCloud~md~obsidian/Documents/LifeOS/3. 资源/有趣的内容/.claude",
+      "/Users/linyong/Library/Mobile Documents/iCloud~md~obsidian/Documents/LifeOS/3. 资源/有趣的内容/learn-code",
+      "/Users/linyong/Library/Mobile Documents/iCloud~md~obsidian/Documents/LifeOS/3. 资源/有趣的内容"
+    ],
+    "hello-kukoo/claude-code-setting": [
+      "/Users/linyong/.claude"
+    ],
+    "hello-kukoo/dotfiles": [
+      "/Users/linyong/dotfiles"
+    ]
+  },
+  "hasAcknowledgedCostThreshold": true,
+  "hasAvailableSubscription": false,
+  "hasCompletedOnboarding": true,
+  "hasIdeOnboardingBeenShown": {
+    "vscode": true
+  },
+  "hasOpusPlanDefault": false,
+  "isQualifiedForDataSharing": false,
+  "lastOnboardingVersion": "2.0.1",
+  "lastPlanModeUse": 1771483509326,
+  "lastReleaseNotesSeen": "2.1.45",
+  "mcpServers": {
+    "grep": {
+      "type": "http",
+      "url": "https://mcp.grep.app"
+    },
+    "pencil": {
+      "args": [
+        "--app",
+        "desktop"
+      ],
+      "command": "/Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+      "env": {},
+      "type": "stdio"
+    },
+    "sequential-thinking": {
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "command": "npx",
+      "type": "stdio"
+    },
+    "tavily": {
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.tavily.com/mcp/?tavilyApiKey=${TAVILY_API_KEY}"
+      ],
+      "command": "npx",
+      "env": {
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+      },
+      "type": "stdio"
+    }
+  },
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "opus45MigrationComplete": true,
+  "opusProMigrationComplete": true,
+  "projects": {
+    "/Users/linyong/.claude": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "agents/code-reviewer.md",
+        "agents/library-usage-researcher.md",
+        "prompts/2-implemetation-plan.md",
+        "prompts/3-implementer.md",
+        "prompts/claude_software-engineer.md"
+      ],
+      "exampleFilesGeneratedAt": 1770277224692,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": true,
+      "lastAPIDuration": 3004,
+      "lastAPIDurationWithoutRetries": 3002,
+      "lastCost": 0.001578,
+      "lastDuration": 15090,
+      "lastFpsAverage": 10.61,
+      "lastFpsLow1Pct": 120.89,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "glm-4.7": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.001578,
+          "inputTokens": 296,
+          "outputTokens": 46,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "4a2262e7-4a0b-4915-9ea6-205c47c03170",
+      "lastToolDuration": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalInputTokens": 296,
+      "lastTotalOutputTokens": 46,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/Code/Palan/Code.analysis/Viber-Analysis": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "diagnosis_dict_generator.py",
+        "SKILL.md",
+        "prompts.md",
+        "statistical-tests.md",
+        "AGENTS.md"
+      ],
+      "exampleFilesGeneratedAt": 1770528486967,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 54701,
+      "lastAPIDurationWithoutRetries": 54699,
+      "lastCost": 0.1155955,
+      "lastDuration": 129670,
+      "lastFpsAverage": 6.71,
+      "lastFpsLow1Pct": 122.43,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 2321,
+          "costUSD": 0.1155955,
+          "inputTokens": 14417,
+          "outputTokens": 1694,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "1f20cd83-21f1-4b17-b1d9-f84b7406b790",
+      "lastToolDuration": 4654,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 2321,
+      "lastTotalInputTokens": 14417,
+      "lastTotalOutputTokens": 1694,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/Library/Mobile Documents/iCloud~md~obsidian/Documents/LifeOS/3. 资源/有趣的内容": {
+      "allowedTools": [],
+      "disabledMcpServers": [
+        "pubmed"
+      ],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "gen-weekly-diary.md",
+        "gen-weekly-sum.md",
+        "goblin.md",
+        "web_summarizer.md",
+        "SKILL.md"
+      ],
+      "exampleFilesGeneratedAt": 1771128938856,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastCost": 0,
+      "lastDuration": 82140744,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "4d47fd64-73dc-4a3c-8eb6-dc1626ad5de4",
+      "lastToolDuration": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "projectOnboardingSeenCount": 4,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      },
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 39,
+        "frame_duration_ms_min": 0.603417000034824,
+        "frame_duration_ms_max": 5.517334000000119,
+        "frame_duration_ms_avg": 1.5424027692555542,
+        "frame_duration_ms_p50": 1.118416000000252,
+        "frame_duration_ms_p95": 3.8060080000374934,
+        "frame_duration_ms_p99": 5.4114086201432645
+      },
+      "lastFpsAverage": 0.01,
+      "lastFpsLow1Pct": 181.25
+    },
+    "/Users/linyong/tmp": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [],
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 264560,
+      "lastAPIDurationWithoutRetries": 264552,
+      "lastCost": 0.364509,
+      "lastDuration": 4493695,
+      "lastLinesAdded": 176,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "deepseek-chat": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 192,
+          "costUSD": 0.008280599999999999,
+          "inputTokens": 1891,
+          "outputTokens": 170,
+          "webSearchRequests": 0
+        },
+        "deepseek-reasoner": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 363328,
+          "costUSD": 0.3562284,
+          "inputTokens": 46095,
+          "outputTokens": 7263,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "7792e30f-103f-4e7e-8080-31723bcf362e",
+      "lastToolDuration": 859,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 363520,
+      "lastTotalInputTokens": 47986,
+      "lastTotalOutputTokens": 7433,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/T1D-Toujeo-U300": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "01_create_adsl.R",
+        "adam_utils.R",
+        "Table4_safety.R",
+        "data_analysis_specs.md",
+        "tfl_utils.R"
+      ],
+      "exampleFilesGeneratedAt": 1767759316712,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastCost": 0,
+      "lastDuration": 57834,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "d3dc6b1a-244a-49d5-91a6-f51c63f389d6",
+      "lastToolDuration": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/agentic-pmo": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "index.ts",
+        "api.py",
+        "controller.go",
+        "service.js",
+        "models.rb"
+      ],
+      "exampleFilesGeneratedAt": 1771034856890,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 1811211,
+      "lastAPIDurationWithoutRetries": 1315059,
+      "lastCost": 2.1928,
+      "lastDuration": 36243364,
+      "lastFpsAverage": 0.72,
+      "lastFpsLow1Pct": 84.9,
+      "lastLinesAdded": 2106,
+      "lastLinesRemoved": 26,
+      "lastModelUsage": {
+        "claude-sonnet-4-5-thinking": {
+          "inputTokens": 201240,
+          "outputTokens": 47464,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 2.1928
+        }
+      },
+      "lastSessionId": "429cb466-acc1-44d1-917e-a2af75be28bf",
+      "lastToolDuration": 74,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalInputTokens": 201240,
+      "lastTotalOutputTokens": 47464,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0
+    },
+    "/Users/linyong/tmp/Viber/skill-creator-emmeans": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "SKILL.md",
+        "code-mode.md",
+        "common-data-model.md",
+        "analysis-workflow.md",
+        "r-coding-rules.md"
+      ],
+      "exampleFilesGeneratedAt": 1770009794105,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 566382,
+      "lastAPIDurationWithoutRetries": 566367,
+      "lastCost": 0.9294735,
+      "lastDuration": 2189416,
+      "lastFpsAverage": 5.6,
+      "lastFpsLow1Pct": 81.04,
+      "lastLinesAdded": 234,
+      "lastLinesRemoved": 2,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 83685,
+          "costUSD": 0.4431735,
+          "inputTokens": 58011,
+          "outputTokens": 16269,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.4863,
+          "inputTokens": 2855,
+          "outputTokens": 31849,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "7059ec4c-910e-4b00-b119-7d2f70fe89c7",
+      "lastToolDuration": 2146,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 83685,
+      "lastTotalInputTokens": 60866,
+      "lastTotalOutputTokens": 48118,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/skill-medical-r-project": {
+      "allowedTools": [],
+      "disabledMcpServers": [
+        "pubmed"
+      ],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "AGENTS.md",
+        "skill-registry.md",
+        "SKILL.md",
+        "code-mode.md",
+        "common-data-model.md"
+      ],
+      "exampleFilesGeneratedAt": 1770532869050,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 616496,
+      "lastAPIDurationWithoutRetries": 616477,
+      "lastCost": 1.9055245000000005,
+      "lastDuration": 3997971,
+      "lastFpsAverage": 2.5,
+      "lastFpsLow1Pct": 100.87,
+      "lastLinesAdded": 213,
+      "lastLinesRemoved": 74,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 97225,
+          "costUSD": 0.8296674999999999,
+          "inputTokens": 102101,
+          "outputTokens": 10822,
+          "webSearchRequests": 0
+        },
+        "claude-sonnet-4-5-thinking": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 31572,
+          "costUSD": 1.0584510000000005,
+          "inputTokens": 109148,
+          "outputTokens": 19877,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.017405999999999998,
+          "inputTokens": 4642,
+          "outputTokens": 232,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "419bb72a-b15a-4e18-bc1f-3bd250c98176",
+      "lastToolDuration": 237813,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 128797,
+      "lastTotalInputTokens": 215891,
+      "lastTotalOutputTokens": 30931,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/skills-creator": {
+      "allowedTools": [],
+      "disabledMcpServers": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "skill-registry.md",
+        "SKILL.md",
+        "common-data-model.md",
+        "code-mode.md",
+        "analysis-workflow.md"
+      ],
+      "exampleFilesGeneratedAt": 1770689031105,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 1955821,
+      "lastAPIDurationWithoutRetries": 1955771,
+      "lastCost": 5.645954,
+      "lastDuration": 87474678,
+      "lastFpsAverage": 0.51,
+      "lastFpsLow1Pct": 62.42,
+      "lastLinesAdded": 2047,
+      "lastLinesRemoved": 32,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 492214,
+          "costUSD": 5.605067,
+          "inputTokens": 637747,
+          "outputTokens": 86809,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.040887,
+          "inputTokens": 10239,
+          "outputTokens": 678,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "da52076a-15bf-4fb3-a2a2-9d02c8d29cb0",
+      "lastToolDuration": 1087,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 492214,
+      "lastTotalInputTokens": 647986,
+      "lastTotalOutputTokens": 87487,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/skills-creator-broom": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "SKILL.md",
+        "code-mode.md",
+        "common-data-model.md",
+        "analysis-workflow.md",
+        "r-coding-rules.md"
+      ],
+      "exampleFilesGeneratedAt": 1770009878653,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 388596,
+      "lastAPIDurationWithoutRetries": 388586,
+      "lastCost": 0.4282976999999999,
+      "lastDuration": 723949,
+      "lastFpsAverage": 15.64,
+      "lastFpsLow1Pct": 153.61,
+      "lastLinesAdded": 8,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 78149,
+          "costUSD": 0.3090327,
+          "inputTokens": 27811,
+          "outputTokens": 13477,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.11926499999999998,
+          "inputTokens": 36910,
+          "outputTokens": 569,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "55f9fdc5-b805-47f0-9d67-698ec8941195",
+      "lastToolDuration": 18,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 78149,
+      "lastTotalInputTokens": 64721,
+      "lastTotalOutputTokens": 14046,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/skills-creator-matchit": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "SKILL.md",
+        "code-mode.md",
+        "common-data-model.md",
+        "analysis-workflow.md",
+        "r-coding-rules.md"
+      ],
+      "exampleFilesGeneratedAt": 1770258341864,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 1269104,
+      "lastAPIDurationWithoutRetries": 1117870,
+      "lastCost": 1.2867129000000004,
+      "lastDuration": 3496272,
+      "lastFpsAverage": 11.41,
+      "lastFpsLow1Pct": 30.28,
+      "lastLinesAdded": 260,
+      "lastLinesRemoved": 149,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 207123,
+          "costUSD": 1.2504789000000005,
+          "inputTokens": 203499,
+          "outputTokens": 38523,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.036234,
+          "inputTokens": 11243,
+          "outputTokens": 167,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "4d6bdda1-98df-4b72-83d0-44c0bc5556f6",
+      "lastToolDuration": 283843,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 207123,
+      "lastTotalInputTokens": 214742,
+      "lastTotalOutputTokens": 38690,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/skills-creator-survival": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "SKILL.md",
+        "AGENTS.md",
+        "code-mode.md",
+        "common-data-model.md",
+        "analysis-workflow.md"
+      ],
+      "exampleFilesGeneratedAt": 1770018661823,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 226180,
+      "lastAPIDurationWithoutRetries": 226168,
+      "lastCost": 0.9125796,
+      "lastDuration": 2254670,
+      "lastFpsAverage": 4.07,
+      "lastFpsLow1Pct": 57.47,
+      "lastLinesAdded": 582,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "glm-4.7": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 1490432,
+          "costUSD": 0.9125796,
+          "inputTokens": 94800,
+          "outputTokens": 12070,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "0a40d4b1-4ee5-41bc-b5ef-353e2035ae14",
+      "lastToolDuration": 678,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 1490432,
+      "lastTotalInputTokens": 94800,
+      "lastTotalOutputTokens": 12070,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/test-r-project": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "App.tsx",
+        "server.py",
+        "models.py",
+        "index.ts",
+        "main.go"
+      ],
+      "exampleFilesGeneratedAt": 1770629834306,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 36981,
+      "lastAPIDurationWithoutRetries": 36979,
+      "lastCost": 0.111822,
+      "lastDuration": 498773,
+      "lastFpsAverage": 1.98,
+      "lastFpsLow1Pct": 104.02,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 2852,
+          "costUSD": 0.107091,
+          "inputTokens": 16948,
+          "outputTokens": 837,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.004731,
+          "inputTokens": 1427,
+          "outputTokens": 30,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "a9c61ccf-c056-4140-8544-620163712b6a",
+      "lastToolDuration": 8873,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 2852,
+      "lastTotalInputTokens": 18375,
+      "lastTotalOutputTokens": 867,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/dhm24/desertation-final": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "thesis-proposal.md",
+        "prompts.md",
+        "thesis-proposal_CN.md",
+        "appendix_glossary.md",
+        "detail-plan.md"
+      ],
+      "exampleFilesGeneratedAt": 1770373382576,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 327062,
+      "lastAPIDurationWithoutRetries": 327049,
+      "lastCost": 0.18078,
+      "lastDuration": 20687565,
+      "lastFpsAverage": 0.83,
+      "lastFpsLow1Pct": 134.32,
+      "lastLinesAdded": 33,
+      "lastLinesRemoved": 34,
+      "lastModelUsage": {
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.019700999999999996,
+          "inputTokens": 5382,
+          "outputTokens": 237,
+          "webSearchRequests": 0
+        },
+        "gemini-3-pro-low": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 19520,
+          "costUSD": 0.161079,
+          "inputTokens": 36401,
+          "outputTokens": 3068,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "aa4e230f-3995-476c-9717-81ef5e982947",
+      "lastToolDuration": 126965,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 19520,
+      "lastTotalInputTokens": 41783,
+      "lastTotalOutputTokens": 3305,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/skills-creator": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [
+        "SKILL.md",
+        "code-mode.md",
+        "common-data-model.md",
+        "analysis-workflow.md",
+        "adam-creation.md"
+      ],
+      "exampleFilesGeneratedAt": 1769595114577,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 6895657,
+      "lastAPIDurationWithoutRetries": 6895591,
+      "lastCost": 4.9372488,
+      "lastDuration": 150958240,
+      "lastLinesAdded": 7678,
+      "lastLinesRemoved": 370,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.000035999999999999994,
+          "inputTokens": 2,
+          "outputTokens": 2,
+          "webSearchRequests": 0
+        },
+        "claude-sonnet-4-5-thinking": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 987986,
+          "costUSD": 4.7441328,
+          "inputTokens": 583644,
+          "outputTokens": 179787,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.19308,
+          "inputTokens": 55145,
+          "outputTokens": 1843,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "d0bad0df-573f-43af-b6d2-0b52e2518469",
+      "lastToolDuration": 723041,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 987986,
+      "lastTotalInputTokens": 638791,
+      "lastTotalOutputTokens": 181632,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/private/tmp/test-empty-project": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [],
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 153071,
+      "lastAPIDurationWithoutRetries": 153060,
+      "lastCost": 0.7336480000000001,
+      "lastDuration": 194847,
+      "lastFpsAverage": 13.41,
+      "lastFpsLow1Pct": 171.07,
+      "lastLinesAdded": 202,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 88094,
+          "costUSD": 0.697927,
+          "inputTokens": 110086,
+          "outputTokens": 4138,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.035721,
+          "inputTokens": 9492,
+          "outputTokens": 483,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "c4f11042-dd41-4a43-a79a-69f7101e66c8",
+      "lastToolDuration": 2694,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 88094,
+      "lastTotalInputTokens": 119578,
+      "lastTotalOutputTokens": 4621,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/private/tmp/test-empty-project-v2": {
+      "allowedTools": [],
+      "disabledMcpjsonServers": [],
+      "enabledMcpjsonServers": [],
+      "exampleFiles": [],
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "hasTrustDialogAccepted": false,
+      "lastAPIDuration": 227435,
+      "lastAPIDurationWithoutRetries": 227420,
+      "lastCost": 0.5910965,
+      "lastDuration": 319376,
+      "lastFpsAverage": 10.24,
+      "lastFpsLow1Pct": 98.93,
+      "lastLinesAdded": 160,
+      "lastLinesRemoved": 0,
+      "lastModelUsage": {
+        "claude-sonnet-4-5": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 66083,
+          "costUSD": 0.5514365,
+          "inputTokens": 78009,
+          "outputTokens": 5134,
+          "webSearchRequests": 0
+        },
+        "gemini-3-flash": {
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0,
+          "costUSD": 0.03966,
+          "inputTokens": 11245,
+          "outputTokens": 395,
+          "webSearchRequests": 0
+        }
+      },
+      "lastSessionId": "ec471b2e-37b6-4d87-b1db-3fae846c0c9b",
+      "lastToolDuration": 2174,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 66083,
+      "lastTotalInputTokens": 89254,
+      "lastTotalOutputTokens": 5529,
+      "lastTotalWebSearchRequests": 0,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "projectOnboardingSeenCount": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageManager": null,
+        "packageName": null,
+        "version": null
+      }
+    },
+    "/Users/linyong/tmp/Viber/palangent-feature-timesheet": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "base.ts",
+        "agent.ts",
+        "mcp.ts",
+        "index.ts",
+        "Setup.tsx"
+      ],
+      "exampleFilesGeneratedAt": 1771080087691,
+      "lastCost": 0.12314280000000001,
+      "lastAPIDuration": 116331,
+      "lastAPIDurationWithoutRetries": 116330,
+      "lastToolDuration": 1694,
+      "lastDuration": 2097922,
+      "lastLinesAdded": 54,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 36184,
+      "lastTotalOutputTokens": 900,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 3636,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.89,
+      "lastFpsLow1Pct": 222.76,
+      "lastModelUsage": {
+        "gemini-3-pro-low": {
+          "inputTokens": 32780,
+          "outputTokens": 871,
+          "cacheReadInputTokens": 3636,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.1124958
+        },
+        "gemini-3-flash": {
+          "inputTokens": 3404,
+          "outputTokens": 29,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.010646999999999998
+        }
+      },
+      "lastSessionId": "47dce26e-6d94-434b-959c-d74b9149b60d"
+    },
+    "/Users/linyong/tmp/Viber/palangent-feature-weekrpt": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 47,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "timesheet.ts",
+        "Dashboard.tsx",
+        "TimesheetSettings.tsx",
+        "files.ts",
+        "left-sidebar.tsx"
+      ],
+      "exampleFilesGeneratedAt": 1771313756344,
+      "lastCost": 3.2178868499999993,
+      "lastAPIDuration": 720908,
+      "lastAPIDurationWithoutRetries": 720600,
+      "lastToolDuration": 207617,
+      "lastDuration": 4562236,
+      "lastLinesAdded": 598,
+      "lastLinesRemoved": 49,
+      "lastTotalInputTokens": 115781,
+      "lastTotalOutputTokens": 20699,
+      "lastTotalCacheCreationInputTokens": 322669,
+      "lastTotalCacheReadInputTokens": 4500167,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 2.89,
+      "lastFpsLow1Pct": 109.19,
+      "lastModelUsage": {
+        "MiniMax-M2.5[1m]": {
+          "inputTokens": 47227,
+          "outputTokens": 16223,
+          "cacheReadInputTokens": 3246494,
+          "cacheCreationInputTokens": 228696,
+          "webSearchRequests": 0,
+          "costUSD": 2.2165842
+        },
+        "MiniMax-M2.5": {
+          "inputTokens": 68554,
+          "outputTokens": 4476,
+          "cacheReadInputTokens": 1253673,
+          "cacheCreationInputTokens": 93973,
+          "webSearchRequests": 0,
+          "costUSD": 1.00130265
+        }
+      },
+      "lastSessionId": "8b6af90c-7349-44d2-94fd-06b75c5a8947",
+      "disabledMcpServers": [
+        "pencil"
+      ],
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 13154,
+        "frame_duration_ms_min": 0.23929199995473027,
+        "frame_duration_ms_max": 40.15058400016278,
+        "frame_duration_ms_avg": 1.988169936670024,
+        "frame_duration_ms_p50": 1.55777099984698,
+        "frame_duration_ms_p95": 4.034868749603628,
+        "frame_duration_ms_p99": 9.01640750008169
+      }
+    }
+  },
+  "shiftEnterKeyBindingInstalled": true,
+  "showSpinnerTree": false,
+  "skillUsage": {
+    "brainstorming": {
+      "usageCount": 3,
+      "lastUsedAt": 1771313884665
+    },
+    "broom-expert": {
+      "lastUsedAt": 1770020850451,
+      "usageCount": 1
+    },
+    "citation-management": {
+      "lastUsedAt": 1770690653466,
+      "usageCount": 1
+    },
+    "executing-plans": {
+      "usageCount": 3,
+      "lastUsedAt": 1771116927274
+    },
+    "feature-dev:feature-dev": {
+      "lastUsedAt": 1770892494776,
+      "usageCount": 1
+    },
+    "finishing-a-development-branch": {
+      "lastUsedAt": 1770910871524,
+      "usageCount": 1
+    },
+    "gen-weekly-diary": {
+      "usageCount": 4,
+      "lastUsedAt": 1771144076547
+    },
+    "insights": {
+      "lastUsedAt": 1770615893638,
+      "usageCount": 4
+    },
+    "learn-code": {
+      "usageCount": 7,
+      "lastUsedAt": 1771314384091
+    },
+    "library-deep-research": {
+      "lastUsedAt": 1770022245100,
+      "usageCount": 1
+    },
+    "library-quick-lookup": {
+      "lastUsedAt": 1770529628717,
+      "usageCount": 1
+    },
+    "medical-r-coding": {
+      "lastUsedAt": 1770630367110,
+      "usageCount": 1
+    },
+    "medical-r-project": {
+      "lastUsedAt": 1770629180394,
+      "usageCount": 4
+    },
+    "r-autoreg": {
+      "lastUsedAt": 1770630374572,
+      "usageCount": 2
+    },
+    "reading-paper": {
+      "lastUsedAt": 1770706630596,
+      "usageCount": 3
+    },
+    "scientific-critical-thinking": {
+      "lastUsedAt": 1770774868979,
+      "usageCount": 1
+    },
+    "subagent-driven-development": {
+      "lastUsedAt": 1770898217867,
+      "usageCount": 1
+    },
+    "sum-readings": {
+      "usageCount": 2,
+      "lastUsedAt": 1771144280827
+    },
+    "summarize-web-contents": {
+      "usageCount": 21,
+      "lastUsedAt": 1771505110503
+    },
+    "superpowers:brainstorming": {
+      "lastUsedAt": 1771035198568,
+      "usageCount": 13
+    },
+    "superpowers:executing-plans": {
+      "usageCount": 5,
+      "lastUsedAt": 1771428071326
+    },
+    "superpowers:finishing-a-development-branch": {
+      "usageCount": 4,
+      "lastUsedAt": 1771430150950
+    },
+    "superpowers:subagent-driven-development": {
+      "lastUsedAt": 1770865660726,
+      "usageCount": 4
+    },
+    "superpowers:systematic-debugging": {
+      "usageCount": 9,
+      "lastUsedAt": 1771217800962
+    },
+    "superpowers:using-superpowers": {
+      "usageCount": 19,
+      "lastUsedAt": 1771658470473
+    },
+    "superpowers:writing-plans": {
+      "usageCount": 14,
+      "lastUsedAt": 1771486645069
+    },
+    "superpowers:writing-skills": {
+      "lastUsedAt": 1770689071414,
+      "usageCount": 25
+    },
+    "using-superpowers": {
+      "usageCount": 5,
+      "lastUsedAt": 1771344040568
+    },
+    "writing-skills": {
+      "lastUsedAt": 1770256457716,
+      "usageCount": 2
+    },
+    "git-commit-message": {
+      "usageCount": 3,
+      "lastUsedAt": 1771423369951
+    },
+    "elements-of-style:writing-clearly-and-concisely": {
+      "usageCount": 1,
+      "lastUsedAt": 1771317718032
+    },
+    "writing-plans": {
+      "usageCount": 1,
+      "lastUsedAt": 1771377770287
+    }
+  },
+  "sonnet45MigrationComplete": true,
+  "subscriptionNoticeCount": 0,
+  "teammateMode": "auto",
+  "thinkingMigrationComplete": true,
+  "userID": "36828c33797992e1a8f35833abf5a3222e122011e0d9a67e0048e2e8651e3994",
+  "sonnet1m45MigrationComplete": true
+}
