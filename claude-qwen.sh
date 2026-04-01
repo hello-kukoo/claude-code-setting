@@ -8,7 +8,7 @@ echo "----------------------------------------"
 
 # cp ~/.claude/settings-qwen.json ~/.claude/settings.json
 
-export ANTHROPIC_BASE_URL="https://dashscope.aliyuncs.com/apps/anthropic
+export ANTHROPIC_BASE_URL="https://dashscope.aliyuncs.com/apps/anthropic"
 export ANTHROPIC_AUTH_TOKEN=$ALIYUNCS_API_KEY
 export ANTHROPIC_MODEL="qwen3.5-plus"
 export ANTHROPIC_SMALL_FAST_MODEL="qwen-flash"

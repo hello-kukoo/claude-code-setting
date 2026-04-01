@@ -72,7 +72,6 @@
       "Bash(git push:*)"
     ]
   },
-  "model": "opus",
   "statusLine": {
     "type": "command",
     "command": "npx -y ccstatusline@latest",
@@ -92,8 +91,9 @@
     "utility-skills@baoyu-skills": true,
     "frontend-design@claude-plugins-official": true,
     "feature-dev@claude-plugins-official": true,
-    "playwright@claude-plugins-official": true
+    "playwright@claude-plugins-official": true,
+    "claude-session-driver@superpowers-marketplace": true,
+    "double-shot-latte@superpowers-marketplace": true
   },
-  "skipDangerousModePermissionPrompt": true,
-  "effortLevel": "medium"
+  "skipDangerousModePermissionPrompt": true
 }

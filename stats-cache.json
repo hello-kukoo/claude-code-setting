@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastComputedDate": "2026-02-17",
+  "lastComputedDate": "2026-02-24",
   "dailyActivity": [
     {
       "date": "2026-01-03",
@@ -217,6 +217,30 @@
       "messageCount": 920,
       "sessionCount": 7,
       "toolCallCount": 181
+    },
+    {
+      "date": "2026-02-18",
+      "messageCount": 1642,
+      "sessionCount": 11,
+      "toolCallCount": 380
+    },
+    {
+      "date": "2026-02-19",
+      "messageCount": 444,
+      "sessionCount": 8,
+      "toolCallCount": 75
+    },
+    {
+      "date": "2026-02-21",
+      "messageCount": 12,
+      "sessionCount": 1,
+      "toolCallCount": 3
+    },
+    {
+      "date": "2026-02-22",
+      "messageCount": 2,
+      "sessionCount": 1,
+      "toolCallCount": 0
     }
   ],
   "dailyModelTokens": [
@@ -483,13 +507,34 @@
         "deepseek-reasoner": 126756,
         "claude-sonnet-4-5-thinking": 4448706
       }
+    },
+    {
+      "date": "2026-02-18",
+      "tokensByModel": {
+        "gemini-3-pro-high": 137925,
+        "MiniMax-M2.5": 877562,
+        "claude-sonnet-4-5-thinking": 85158
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "tokensByModel": {
+        "glm-5": 8695,
+        "MiniMax-M2.5": 134047
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "tokensByModel": {
+        "glm-4.7": 188
+      }
     }
   ],
   "modelUsage": {
     "glm-4.7": {
-      "inputTokens": 2521821,
-      "outputTokens": 197307,
-      "cacheReadInputTokens": 29446144,
+      "inputTokens": 2521943,
+      "outputTokens": 197373,
+      "cacheReadInputTokens": 29484032,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -497,8 +542,8 @@
       "maxOutputTokens": 0
     },
     "claude-sonnet-4-5-thinking": {
-      "inputTokens": 53468780,
-      "outputTokens": 1867284,
+      "inputTokens": 53529983,
+      "outputTokens": 1891239,
       "cacheReadInputTokens": 59103132,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
@@ -507,9 +552,9 @@
       "maxOutputTokens": 0
     },
     "gemini-3-pro-high": {
-      "inputTokens": 23808552,
-      "outputTokens": 555710,
-      "cacheReadInputTokens": 27048655,
+      "inputTokens": 23931926,
+      "outputTokens": 570261,
+      "cacheReadInputTokens": 27061130,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -587,9 +632,9 @@
       "maxOutputTokens": 0
     },
     "glm-5": {
-      "inputTokens": 5203029,
-      "outputTokens": 56321,
-      "cacheReadInputTokens": 10541696,
+      "inputTokens": 5209305,
+      "outputTokens": 58740,
+      "cacheReadInputTokens": 10636736,
       "cacheCreationInputTokens": 0,
       "webSearchRequests": 0,
       "costUSD": 0,
@@ -597,18 +642,18 @@
       "maxOutputTokens": 0
     },
     "MiniMax-M2.5": {
-      "inputTokens": 789709,
-      "outputTokens": 108688,
-      "cacheReadInputTokens": 100594307,
-      "cacheCreationInputTokens": 5357353,
+      "inputTokens": 1677363,
+      "outputTokens": 232643,
+      "cacheReadInputTokens": 196925880,
+      "cacheCreationInputTokens": 10340579,
       "webSearchRequests": 0,
       "costUSD": 0,
       "contextWindow": 0,
       "maxOutputTokens": 0
     }
   },
-  "totalSessions": 553,
-  "totalMessages": 24848,
+  "totalSessions": 574,
+  "totalMessages": 26948,
   "longestSession": {
     "sessionId": "310841d0-bb00-4748-9c68-cf966d5b9e99",
     "duration": 234168626,
@@ -617,24 +662,24 @@
   },
   "firstSessionDate": "2026-01-03T12:48:13.033Z",
   "hourCounts": {
-    "0": 8,
+    "0": 9,
     "1": 3,
     "8": 4,
-    "9": 14,
+    "9": 15,
     "10": 45,
-    "11": 37,
+    "11": 38,
     "12": 18,
     "13": 41,
-    "14": 43,
-    "15": 43,
-    "16": 30,
-    "17": 154,
-    "18": 54,
+    "14": 46,
+    "15": 44,
+    "16": 32,
+    "17": 156,
+    "18": 55,
     "19": 13,
-    "20": 16,
+    "20": 18,
     "21": 4,
-    "22": 9,
-    "23": 17
+    "22": 15,
+    "23": 18
   },
   "totalSpeculationTimeSavedMs": 0
 }
