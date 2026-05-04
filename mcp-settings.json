@@ -1,9 +1,9 @@
 {
   "mcpServers": {
-    "pubmed": {
+    "chrome-devtools": {
       "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@ncukondo/pubmed-mcp"]
+      "command": "/opt/homebrew/bin/npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
     },
     "playwright": {
       "type": "stdio",
@@ -32,13 +32,6 @@
         "--api-key",
         "${CONTEXT7_API_KEY}"
       ]
-    },
-    "repomix": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "repomix", "--mcp"],
-      "disabled": false,
-      "autoApprove": []
     },
     "sequential-thinking": {
       "type": "stdio",

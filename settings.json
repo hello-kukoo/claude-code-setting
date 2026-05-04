@@ -5,7 +5,8 @@
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
     "ANTHROPIC_LOG": "error",
     "CLADUE_CODE_MAX_OUTPUT_TOKENS": "1000000",
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "MAX_CONSECUTIVE_AUTOCOMPACT_FAILURES": "3"
   },
   "includeCoAuthoredBy": false,
   "permissions": {
@@ -49,8 +50,7 @@
       "mcp__arxiv-mcp__search_papers",
       "mcp__arxiv-mcp__download_paper",
       "mcp__arxiv-mcp__list_papers",
-      "mcp__arxiv-mcp__read_paper",
-      "mcp__pencil"
+      "mcp__arxiv-mcp__read_paper"
     ],
     "deny": [
       "Bash(dd:*)",
@@ -95,5 +95,11 @@
     "claude-session-driver@superpowers-marketplace": true,
     "double-shot-latte@superpowers-marketplace": true
   },
-  "skipDangerousModePermissionPrompt": true
+  "extraKnownMarketplaces": {},
+  "skipDangerousModePermissionPrompt": true,
+  "mcpServerOverrides": {
+    "chrome-devtools": {
+      "enabled": true
+    }
+  }
 }
